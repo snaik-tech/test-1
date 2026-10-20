@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-labelledby="title desc">
+  <title id="title">Cartoon Dog</title>
+  <desc id="desc">A friendly cartoon dog with floppy ears, brown fur, and wagging tail.</desc>
+
+  <defs>
+    <linearGradient id="bgGrad" x1="0" x2="1">
+      <stop offset="0%" stop-color="#dff5ff"/>
+      <stop offset="100%" stop-color="#c7f0d8"/>
+    </linearGradient>
+    <linearGradient id="furGrad" x1="0" x2="1">
+      <stop offset="0%" stop-color="#b97742"/>
+      <stop offset="100%" stop-color="#8d5a32"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="800" fill="url(#bgGrad)"/>
+
+  <g transform="translate(80,50)">
+    <ellipse cx="320" cy="620" rx="210" ry="38" fill="#a5d7bd" opacity="0.7"/>
+
+    <g>
+      <path d="M195 180 C160 80, 90 80, 80 170 L70 300 C60 370, 120 420, 180 400 L220 360 C240 350, 270 350, 290 360 L330 400 C390 420, 450 370, 440 300 L430 170 C420 80, 350 80, 315 180 Z" fill="url(#furGrad)"/>
+
+      <path d="M166 145 C125 110, 98 90, 80 160" fill="none" stroke="#6c4329" stroke-width="18" stroke-linecap="round"/>
+      <path d="M346 145 C387 110, 415 90, 430 160" fill="none" stroke="#6c4329" stroke-width="18" stroke-linecap="round"/>
+
+      <ellipse cx="180" cy="215" rx="32" ry="44" fill="#f2d0a6"/>
+      <ellipse cx="350" cy="215" rx="32" ry="44" fill="#f2d0a6"/>
+
+      <ellipse cx="184" cy="228" rx="10" ry="14" fill="#2d1a12"/>
+      <ellipse cx="346" cy="228" rx="10" ry="14" fill="#2d1a12"/>
+
+      <circle cx="260" cy="250" r="8" fill="#2d1a12"/>
+      <ellipse cx="260" cy="285" rx="78" ry="58" fill="#f5d4b3"/>
+      <ellipse cx="260" cy="280" rx="58" ry="38" fill="#fff"/>
+
+      <path d="M230 300 Q260 330 290 300" fill="none" stroke="#2d1a12" stroke-width="7" stroke-linecap="round"/>
+      <path d="M240 260 Q260 280 280 260" fill="none" stroke="#2d1a12" stroke-width="6" stroke-linecap="round"/>
+
+      <path d="M195 265 C210 240, 225 238, 235 262" fill="none" stroke="#2d1a12" stroke-width="5" stroke-linecap="round"/>
+      <path d="M325 265 C310 240, 295 238, 285 262" fill="none" stroke="#2d1a12" stroke-width="5" stroke-linecap="round"/>
+
+      <path d="M165 210 L120 150" fill="none" stroke="#6c4329" stroke-width="12" stroke-linecap="round"/>
+      <path d="M355 210 L402 150" fill="none" stroke="#6c4329" stroke-width="12" stroke-linecap="round"/>
+
+      <path d="M120 155 C80 110, 60 112, 52 152" fill="none" stroke="#6c4329" stroke-width="18" stroke-linecap="round"/>
+      <path d="M400 155 C440 110, 460 112, 468 152" fill="none" stroke="#6c4329" stroke-width="18" stroke-linecap="round"/>
+
+      <path d="M225 420 C240 500, 280 500, 295 420" fill="none" stroke="#2d1a12" stroke-width="10" stroke-linecap="round"/>
+      <path d="M200 420 L150 510" fill="none" stroke="#8d5a32" stroke-width="26" stroke-linecap="round"/>
+      <path d="M320 420 L370 510" fill="none" stroke="#8d5a32" stroke-width="26" stroke-linecap="round"/>
+
+      <path d="M460 318 C510 280, 565 290, 585 340 C552 342, 528 350, 500 370" fill="#8d5a32"/>
+      <path d="M500 370 C553 390, 590 415, 596 462" fill="none" stroke="#8d5a32" stroke-width="22" stroke-linecap="round"/>
+
+      <path d="M470 470 C510 450, 540 456, 582 470" fill="none" stroke="#8d5a32" stroke-width="18" stroke-linecap="round"/>
+      <path d="M470 470 C505 495, 532 508, 570 500" fill="none" stroke="#8d5a32" stroke-width="18" stroke-linecap="round"/>
+
+      <path d="M130 318 C80 280, 25 290, 5 340 C38 342, 62 350, 90 370" fill="#8d5a32"/>
+      <path d="M90 370 C37 390, 0 415, -6 462" fill="none" stroke="#8d5a32" stroke-width="22" stroke-linecap="round"/>
+
+      <path d="M120 470 C160 450, 190 456, 232 470" fill="none" stroke="#8d5a32" stroke-width="18" stroke-linecap="round"/>
+      <path d="M120 470 C155 495, 182 508, 220 500" fill="none" stroke="#8d5a32" stroke-width="18" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>
