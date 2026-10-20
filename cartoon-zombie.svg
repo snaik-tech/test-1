@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-labelledby="title desc">
+  <title id="title">Cartoon Zombie</title>
+  <desc id="desc">A friendly cartoon zombie character with green skin, torn clothes, and a goofy expression.</desc>
+
+  <defs>
+    <linearGradient id="bgGrad" x1="0" x2="1">
+      <stop offset="0%" stop-color="#d6f5d8"/>
+      <stop offset="100%" stop-color="#dfefff"/>
+    </linearGradient>
+    <linearGradient id="skinGrad" x1="0" x2="1">
+      <stop offset="0%" stop-color="#b7e6a0"/>
+      <stop offset="100%" stop-color="#7ecb7d"/>
+    </linearGradient>
+    <linearGradient id="shirtGrad" x1="0" x2="1">
+      <stop offset="0%" stop-color="#5d6d8f"/>
+      <stop offset="100%" stop-color="#232f4b"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="800" fill="url(#bgGrad)"/>
+
+  <g transform="translate(60,35)">
+    <ellipse cx="340" cy="650" rx="190" ry="40" fill="#9cd7b5" opacity="0.8"/>
+
+    <g>
+      <path d="M220 150 C180 60, 110 65, 80 160 L60 330 C50 390, 95 430, 178 430 L220 430 C235 390, 230 320, 220 150 Z" fill="url(#skinGrad)"/>
+      <path d="M460 150 C500 60, 570 65, 600 160 L620 330 C630 390, 585 430, 502 430 L460 430 C445 390, 450 320, 460 150 Z" fill="url(#skinGrad)"/>
+
+      <path d="M180 140 C120 75, 90 82, 72 150" fill="none" stroke="#5a7d49" stroke-width="16" stroke-linecap="round"/>
+      <path d="M500 140 C560 75, 590 82, 608 150" fill="none" stroke="#5a7d49" stroke-width="16" stroke-linecap="round"/>
+
+      <path d="M136 230 C106 170, 78 170, 55 220" fill="none" stroke="#4f7a43" stroke-width="14" stroke-linecap="round"/>
+      <path d="M544 230 C574 170, 602 170, 625 220" fill="none" stroke="#4f7a43" stroke-width="14" stroke-linecap="round"/>
+
+      <circle cx="220" cy="300" r="92" fill="url(#skinGrad)"/>
+      <circle cx="500" cy="300" r="92" fill="url(#skinGrad)"/>
+
+      <path d="M158 235 C208 150, 290 150, 330 240 L330 360 C290 390, 218 390, 158 360 Z" fill="url(#skinGrad)"/>
+      <path d="M468 235 C418 150, 338 150, 298 240 L298 360 C338 390, 410 390, 468 360 Z" fill="url(#skinGrad)"/>
+
+      <path d="M220 280 L180 250 L150 290 L220 320 Z" fill="none" stroke="#2f2a2b" stroke-width="8" stroke-linejoin="round"/>
+      <path d="M500 280 L540 250 L570 290 L500 320 Z" fill="none" stroke="#2f2a2b" stroke-width="8" stroke-linejoin="round"/>
+
+      <path d="M270 340 Q340 390 410 340" fill="none" stroke="#2f2a2b" stroke-width="8" stroke-linecap="round"/>
+
+      <ellipse cx="260" cy="310" rx="18" ry="26" fill="#1a1a1a"/>
+      <ellipse cx="460" cy="310" rx="18" ry="26" fill="#1a1a1a"/>
+
+      <circle cx="250" cy="300" r="7" fill="#ffffff"/>
+      <circle cx="470" cy="300" r="7" fill="#ffffff"/>
+
+      <path d="M330 325 L340 337 L350 325" fill="none" stroke="#2d2d2d" stroke-width="7" stroke-linecap="round"/>
+      <path d="M290 370 Q340 400 390 370" fill="none" stroke="#2d2d2d" stroke-width="8" stroke-linecap="round"/>
+
+      <path d="M260 455 L200 525 L180 640 L245 640 L275 520 Z" fill="url(#shirtGrad)"/>
+      <path d="M420 455 L480 525 L500 640 L435 640 L405 520 Z" fill="url(#shirtGrad)"/>
+
+      <path d="M220 420 L340 420 L300 520 L220 520 Z" fill="url(#shirtGrad)"/>
+      <path d="M480 420 L340 420 L380 520 L480 520 Z" fill="url(#shirtGrad)"/>
+
+      <path d="M330 420 L340 580 L350 420 Z" fill="#2d3a5e"/>
+
+      <path d="M240 470 C200 500, 182 540, 182 580" fill="none" stroke="#dfe8ff" stroke-width="8" stroke-linecap="round"/>
+      <path d="M440 470 C480 500, 498 540, 498 580" fill="none" stroke="#dfe8ff" stroke-width="8" stroke-linecap="round"/>
+
+      <path d="M208 570 L150 630" fill="none" stroke="#6a7d62" stroke-width="26" stroke-linecap="round"/>
+      <path d="M473 570 L532 630" fill="none" stroke="#6a7d62" stroke-width="26" stroke-linecap="round"/>
+
+      <path d="M170 260 L110 245 L100 300 L170 292 Z" fill="#7ecb7d"/>
+      <path d="M510 260 L570 245 L580 300 L510 292 Z" fill="#7ecb7d"/>
+
+      <path d="M240 150 C210 120, 200 95, 198 72" fill="none" stroke="#5a7d49" stroke-width="14" stroke-linecap="round"/>
+      <path d="M480 150 C510 120, 520 95, 522 72" fill="none" stroke="#5a7d49" stroke-width="14" stroke-linecap="round"/>
+
+      <path d="M330 185 L310 120 L290 185" fill="none" stroke="#5a7d49" stroke-width="10" stroke-linecap="round"/>
+      <path d="M340 185 L360 120 L380 185" fill="none" stroke="#5a7d49" stroke-width="10" stroke-linecap="round"/>
+
+      <path d="M260 540 L310 625 L360 540" fill="none" stroke="#5a7d49" stroke-width="18" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>
